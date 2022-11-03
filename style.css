@@ -232,7 +232,10 @@
     vertical-align: middle;
     vertical-align: middle;
     text-align: end;
-    margin-left: -20px
+  }
+
+  #choose-language option {
+    background-color: #23272a;
   }
   
   .fa-brands {
