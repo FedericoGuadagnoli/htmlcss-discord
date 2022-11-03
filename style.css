@@ -63,7 +63,7 @@
   a {
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     font-weight: 600;
   }
   
@@ -112,19 +112,18 @@
     padding-bottom: 30px;
   }
   
-  .content .btn-mac, .btn-browser {
+  .btn-mac, .btn-browser {
     border: none;
     padding: 15px;
-    border-radius: 10px;
     border-radius: 18px;
     font-size: 14px;
   }
   
-  .btn-mac {
+  .content .btn-mac {
     background-color: white;
     margin-right: 30px;
   }
-  .btn-mac a {
+  .content .btn-mac a {
     color: black;
   }
 
@@ -140,7 +139,7 @@
   /* # Main & sections */
   section {
     padding: 50px;
-    height: 700px;
+    height: 600px;
   }
   
   section > .container {
@@ -149,7 +148,6 @@
   
   .flex > .small-col {
     flex-basis: 32%;
-    background-color: pink;
     padding: 36px;
   }
    
@@ -166,18 +164,25 @@
   }
   .flex > .large-col {
     flex-basis: 60%;
-    background-color: dodgerblue;
   }
   
+  section:last-child {
+    height: 900px;
+  }
   .flex > .full-col {
     flex-basis: 100%;
-    background-color: darkgreen;
+    text-align: center;
   }
   
   .container-content {
     max-width: 71%;
     margin: auto;
-    text-align: center;
+  }
+
+  h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 27px;
   }
   /* # Footer */
   
@@ -229,3 +234,6 @@
     background-color: yellow;
   }
   
+  .full-col .btn-mac {
+    background-color: #8ea1e1;
+  }
