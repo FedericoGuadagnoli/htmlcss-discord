@@ -107,7 +107,7 @@
     padding-bottom: 35px;
   }
 
-  p {
+  .header {
     line-height: 25px;
     padding-bottom: 30px;
   }
@@ -136,10 +136,11 @@
   .fa-arrow-down-long {
     padding-right: 8px;
   }
+
   /* # Main & sections */
   section {
     padding: 50px;
-    height: 600px;
+    height: 700px;
   }
   
   section > .container {
@@ -147,10 +148,22 @@
   }
   
   .flex > .small-col {
-    flex-basis: 40%;
+    flex-basis: 32%;
     background-color: pink;
+    padding: 36px;
   }
+   
+  h2 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+  } 
   
+  p {
+    font-weight: 600;
+    padding-top: 20px;
+    line-height: 25px;
+  }
   .flex > .large-col {
     flex-basis: 60%;
     background-color: dodgerblue;
@@ -161,6 +174,11 @@
     background-color: darkgreen;
   }
   
+  .container-content {
+    max-width: 71%;
+    margin: auto;
+    text-align: center;
+  }
   /* # Footer */
   
   footer {
