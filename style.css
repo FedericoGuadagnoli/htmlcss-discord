@@ -25,9 +25,7 @@
     flex-direction: row-reverse;
   }
   
-  .debug .border {
-    border: 2px dashed black;
-  }
+  
   
   .bg-white {
     background-color: white;
@@ -38,7 +36,8 @@
   }
   
   header {
-    background-color: lightblue;
+    background-image: url(/img/jumbo.png);
+    background-size: cover;
   }
   
   /* # Navbar */
@@ -54,36 +53,82 @@
   .navbar > * {
     padding: 10px;
     flex-basis: 20%;
-    background-color: goldenrod;
   }
   
   .navbar-menu {
     flex-grow: 1;
     text-align: center;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+  }
   
   .navbar-actions {
     text-align: right;
   }
+
+  .navbar-actions .btn {
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    border: none;
+  }
   
+
   /* # Jumbotron */
   
   .jumbotron {
     padding: 50px;
     height: 500px;
-    background-color: darkblue;
-  
     display: flex;
     justify-content: center;
   }
   
   .jumbotron .content {
-    width: 50%;
+    width: 42%;
     /* height: 100%; */
     /* margin: 0 auto; */
-    background-color: violet;
+    text-align: center;
+    color: white;
+  }
+
+  h1 {
+    font-size: 50px;
+    padding-bottom: 35px;
+  }
+
+  p {
+    line-height: 25px;
+    padding-bottom: 30px;
   }
   
+  .content .btn-mac, .btn-browser {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    border-radius: 18px;
+    font-size: 14px;
+  }
+  
+  .btn-mac {
+    background-color: white;
+    margin-right: 30px;
+  }
+
+  .btn-browser {
+    background-color: #23272a;
+    color: white;
+  }
+
+  .fa-arrow-down-long {
+    padding-right: 8px;
+  }
   /* # Main & sections */
   section {
     padding: 50px;
