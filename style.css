@@ -36,7 +36,7 @@
   }
   
   header {
-    background-image: url(/img/jumbo.png);
+    background-image: url(img/jumbo.png);
     background-size: cover;
   }
   
@@ -70,17 +70,21 @@
   .navbar-actions {
     text-align: right;
   }
-
-  .navbar-actions .btn-login {
-    background-color: white;
+  
+  .btn {
     border-radius: 30px;
     padding: 4px;
     font-size: 11px;
     font-weight: 600;
     border: none;
   }
+  .btn .login {
+    background-color: white;
 
-  .btn-login a {
+  }
+
+
+  .login a {
     color: black;
   }
   
@@ -141,7 +145,7 @@
     padding: 50px;
     height: 600px;
   }
-  
+
   section > .container {
     height: 100%;
   }
@@ -196,7 +200,7 @@
     height: 600px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    border-bottom: 1px solid purple;
+    border-bottom: 1px solid #8ea1e1;
   
     display: flex;
   }
@@ -270,16 +274,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: aquamarine;
   }
   
   .footer-bottom > * {
     padding: 5px 10px;
-    background-color: yellow;
   }
   
   .full-col .btn-mac {
     background-color: #8ea1e1;
   }
   
-  
+  .signup {
+    background-color: #8ea1e1;
+  }
