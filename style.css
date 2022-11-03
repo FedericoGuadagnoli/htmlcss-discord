@@ -203,14 +203,58 @@
   
   .footer-top .footer-left {
     flex-basis: 30%;
-    background-color: pink;
   }
   
+  .footer-left h2 {
+    color: #7289da;
+  }
+
+  .language {
+    height: 50px;
+    margin-top: 30px;
+  }
+
+  #nation {
+    height: 20px;
+    width: 30px;
+    line-height: 50px;
+    vertical-align: middle;
+  }
+  
+  #choose-language{
+    background-color: transparent;
+    color: white;
+    border: none;
+    vertical-align: middle;
+    vertical-align: middle;
+    text-align: end;
+    margin-left: -20px
+  }
+  
+  .fa-brands {
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+  }
+
   .footer-top .footer-right {
     flex-basis: 70%;
-    background-color: #20b2aa;
+  }
+
+  ul {
+    list-style-type: none;
   }
   
+  li {
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  li h4 {
+    color: #7289da;
+  }
   .footer-nav {
     height: 100%;
     display: flex;
@@ -237,3 +281,5 @@
   .full-col .btn-mac {
     background-color: #8ea1e1;
   }
+  
+  
