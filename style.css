@@ -71,13 +71,17 @@
     text-align: right;
   }
 
-  .navbar-actions .btn {
+  .navbar-actions .btn-login {
     background-color: white;
     border-radius: 30px;
-    padding: 10px;
+    padding: 4px;
     font-size: 11px;
     font-weight: 600;
     border: none;
+  }
+
+  .btn-login a {
+    color: black;
   }
   
 
@@ -119,6 +123,9 @@
   .btn-mac {
     background-color: white;
     margin-right: 30px;
+  }
+  .btn-mac a {
+    color: black;
   }
 
   .btn-browser {
