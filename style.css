@@ -78,7 +78,7 @@
     font-weight: 600;
     border: none;
   }
-  .btn .login {
+  .btn.login {
     background-color: white;
 
   }
@@ -289,4 +289,13 @@
   
   .signup {
     background-color: #8ea1e1;
+  }
+  
+  .wave {
+    opacity: 0.2;
+    display: block;
+  }
+
+  .upside-down {
+    transform: rotate(0.4);
   }
